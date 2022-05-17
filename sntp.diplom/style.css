@@ -1,0 +1,159 @@
+* { margin: 0; padding: 0; }
+html, body {height: 100%;}
+body {background: url(https://sntp.ru/images/sntp/bg.png) #fff repeat-x; color: #000; height:100%; width:100%;}
+body, form, p, h1, h2, h3, h4, h5, h6, td, ul, li, fieldset,textarea,input {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+	 list-style: none;
+	 font-weight: normal;
+	 outline: none;
+  }
+
+/*  Trebuchet MS, Helvetica, sans-serif*/
+  
+img { border: 0; } 
+
+a { color: #069; text-decoration: underline }
+a:hover { color: #c30; text-decoration: none }
+
+.cf:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.cf {
+	display: inline-block;
+}
+ 
+html[xmlns] .cf {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+.conteiner { position: relative; min-height: 100%; }
+* html .conteiner { height: 100%; }
+
+.head-box { background: url(https://sntp.ru/images/sntp/bg_head.png) 0 100% repeat-x }
+
+.header { width: 958px; margin: 0 auto; overflow: hidden; padding: 20px 22px 0 2px }
+.header h2, .header h2 a {  width: 362px; height: 62px; background: url(https://sntp.ru/images/sntp/logo.png); }
+.header h2 { float: left; text-indent: -6000px; }
+.header h2 a { display: block; background: 0; }
+
+.top-nav { float: right; padding: 30px 0 0 }
+.top-nav li { float: left; }
+.top-nav b, .top-nav span { float: left; padding: 4px 0 7px 33px; font: normal 16px/1em Trebuchet MS, Helvetica, sans-serif; background: url(https://sntp.ru/images/sntp/bg_top_nav.png) no-repeat; }
+.top-nav .map { padding: 0 45px 0 0 }
+.top-nav span { cursor: pointer; }
+.top-nav span b { padding: 0; line-height: 1em; color: #069; border-bottom: 1px dashed #069; background: 0; }
+.top-nav span:hover { background-position: 0 -50px }
+.top-nav span:hover b { color: #c30; border-bottom: 1px dashed #c30 }
+.top-nav .back { padding: 0 38px 0 0 }
+.top-nav .back b { background-position: 0 -100px; }
+.top-nav .back b:hover { background-position: 0 -150px; }
+.top-nav .mail b { background-position: 0 -200px; }
+.top-nav .mail b:hover { background-position: 0 -250px; }
+.menu { clear: both; text-align: center; padding: 40px 0 30px } 
+.menu b { font: normal 18px/1em Trebuchet MS, Helvetica, sans-serif; } 
+.menu a, .menu b { text-decoration: none; margin: 0 25px } 
+.menu a b { margin: 0; color: #069 } 
+.menu a:hover b, .menu b { color: #c30 } 
+
+.slider-box { width: 750px; height: 114px; position: relative; margin: 0 0 20px; overflow: hidden; }
+.slider-box ul { height: 114px; overflow: hidden }
+.slider-box li { list-style: none; height: 107px; width: 97px; padding: 0 8px; position: relative; }
+.slider-box li a { display: block; position: relative; height: 107px; width: 97px; margin: 0 auto; }
+.slider-box li div { position: absolute; top: 0; left: 0; width: 97px; height: 107px; background: url(https://sntp.ru/images/sntp/img_box.png); z-index: 1; }
+.slider-box li a:hover div { background-position: 0 -107px; }
+.slider-box .bx-wrapper { /*width: 676px!important;*/ padding: 0 0 0 37px; }
+.slider-box .bx-window { /*width: 676px!important;*/ }
+.slider-box .bx-prev, .slider-box .bx-next { position: absolute; top: 35px; width: 37px; height: 41px; background: url(https://sntp.ru/images/sntp/bg_prev_next.png); text-indent: -9000px; outline: none; }
+.slider-box .bx-prev { left: 0px; }
+.slider-box .bx-next { right: -37px; background-position: 100% 0 }
+.slider-box .bx-prev:hover { background-position: 0 -41px }
+.slider-box .bx-next:hover { background-position: 100% -41px }
+
+.content { width: 750px; margin: 0 auto; padding: 0 0 205px; }
+
+h1 { font: normal 24px/55px Trebuchet MS, Helvetica, sans-serif; text-align: center; padding: 0 0 16px; margin: 0 0 20px; background: url(https://sntp.ru/images/sntp/bg_title.png) center 100% no-repeat }
+p { padding: 0 37px 15px }
+
+table { border-collapse: collapse; width: 680px; margin: 0 auto 20px; }
+table th, table td { font-size: 12px; text-align: center; vertical-align: top; padding: 4px 0 6px; border-right: 1px solid #fff }
+table th { width: 55px; background: #0074b7; color: #fff; font-weight: normal; }
+table th+th { width: 345px; }
+table th+th+th { width: 203px; }
+table th+th+th+th { width: 76px; }
+table td { background: #e0e0e0; }
+table .lt td { background: #eee; }
+table .wt td { background: #fff; color: #0074b7; }
+
+form { width: 680px; margin: 0 auto 20px }
+form .line { overflow: hidden; padding: 5px 0 15px; }
+form .line b, form .line input, form .line textarea, form .line span { float: left }
+form .line i, form .line span { font-style: normal; color: #f00 }
+form .line b { width: 107px; font-weight: normal; line-height: 27px; }
+form .line input[type="text"], form .line textarea { width: 418px; height: 25px; line-height: 25px; border: 1px solid #000; padding: 0 5px; box-shadow: inset 0 0 8px #b0b0b0 }
+form .line input[type="submit"] { float: none; display: block; width: 183px; height: 41px; background: url(https://sntp.ru/images/sntp/bg_but.png); margin: 0 auto; border: 0; cursor: pointer; }
+form .line input[type="submit"]:hover { background-position: 0 -41px; }
+form .line textarea { resize: none; height: 198px; line-height: normal; padding: 5px; }
+form .line .error { padding: 0 0 0 11px; line-height: 27px; }
+form .check { padding: 0 0 20px 107px; }
+form .check input[type="text"] { width: 188px; height: 38px; line-height: 38px; }
+form .check b {float: none; display: block; line-height: normal; width: auto; padding: 0 0 5px }
+form .check .error { padding: 30px 0 0 11px }
+form .box { float: left; width: 230px; }
+form .box+.box { width: 200px; }
+form a, form a:hover { color: #000; }
+form img { display: block; margin: 5px 0 0 }
+
+.docs { width: 685px; margin: 0 auto 15px; overflow: hidden }
+.docs a { float: left; width: 120px; height: 164px; position: relative; padding: 6px 0 0 10px; margin: 0 3px 10px 4px; }
+.docs a img { display: block; max-width: 106px; max-height: 150px; }
+.docs a div { position: absolute; top: 0; left: 0; width: 130px; height: 170px; background: url(https://sntp.ru/images/sntp/ramka.png); }
+.docs a:hover div { background-position: 0 -170px; }
+
+.foot-box { position: relative; height: 190px; margin-top: -190px; background: url(https://sntp.ru/images/sntp/bg_footer_bot.png) 0 100% repeat-x; border-top: 1px solid #e2e2e2 }
+.foot-box .bt { border-top: 1px solid #c5c5c5; }
+
+.footer { position: relative; width: 680px; margin: 0 auto; padding: 26px 0 14px; }
+.footer .arr { position: absolute; top: -12px; left: 322px; width: 36px; height: 12px; background: url(https://sntp.ru/images/sntp/bot_arr.png); }
+.sert-info { float: left; height: 72px; background: url(https://sntp.ru/images/sntp/znak.png) no-repeat; padding: 18px 0 40px 100px; text-align: center; }
+.footer .link { float: right; width: 300px; padding: 18px 0 0 }
+.footer .link span { display: block; font-size: 12px; line-height: 15px; background: url(https://sntp.ru/images/sntp/bg_foot_link.png) no-repeat; padding: 0 0 0px 26px; margin: 0 0 5px; }
+
+.footer .link span a:hover {color:#006699; text-decoration:none;}
+
+.footer .link span+span+span { background-position: 0 -100px; }
+.footer .link span+span+span a { color: #333; }
+
+.footer .link span+span+span a:hover { color: #333; }
+
+.footer p { clear: both; font-size: 12px; text-align: center; padding: 0 }
+
+.tab-box { padding: 0 10px 10px }
+.tabs { overflow: hidden; }
+.tabs li { float: left; line-height: 38px; font-size: 12px; padding: 0 30px 0 0; }
+.tabs li a { color: #fff; text-decoration: none;  border-bottom: 1px dashed #fff }
+.tabs li a:hover, .tabs li.active a { color: #6cf; border-bottom: 1px dashed #6cf }
+.tabs li.active a { cursor: default; }
+.tab_container .tab_content { width: 400px; height: 400px; }
+
+
+.modal_bg{ position:absolute; display:none; z-index:1000; left:0; top:0; background-color:#000; }
+.modal_window{ position:absolute; display:none; left:50%; z-index:1100; width:420px; margin-left:-210px; height:450px; background:#0068a4; box-shadow: 0 2px 5px #000 }
+.modal_window .close { position:absolute; top: 13px; right: 12px; width: 10px; height: 10px; background: url(https://sntp.ru/images/sntp/bg_close.png); cursor: pointer }
+.modal_window .close:hover { background-position: 0 -10px; }
+
+.content form{
+	background-color: antiquewhite;
+}

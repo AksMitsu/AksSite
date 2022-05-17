@@ -1,0 +1,784 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0016)https://sntp.ru/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="description"
+          content="Сибирский институт по проектированию  предприятий транспорта и хранения газа, нефти и нефтепродуктов">
+    <meta name="keywords"
+          content="проектирование нефтепроводов, строительство нефтепроводов, проектирование газопроводов, строительство газопроводов">
+
+    <title>ОАО "Сибнефтетранспроект" - Об акционерном обществе</title>
+
+    <link rel="shortcut icon" href="https://sntp.ru/favicon.ico">
+
+
+    <script type="text/javascript" src="sntp.diplom/cross-domain.php"></script>
+    <script charset="utf-8" src="sntp.diplom/cross-domain(1).php"></script>
+
+    <script type="text/javascript" charset="utf-8" src="sntp.diplom/jquery.js.Без названия"></script>
+    <script type="text/javascript" charset="utf-8" src="sntp.diplom/jquery-ui.js.Без названия"></script>
+    <script type="text/javascript" charset="utf-8" src="sntp.diplom/jquery-ui-i18n.js.Без названия"></script>
+    <script type="text/javascript" charset="utf-8" src="sntp.diplom/jquery.cookie.js.Без названия"></script>
+    <script type="text/javascript" charset="utf-8" src="sntp.diplom/guest.js.Без названия"></script>
+
+
+    <link media="all" href="sntp.diplom/style.css" type="text/css" rel="stylesheet">
+
+    <script type="text/javascript" src="sntp.diplom/jquery.bxSlider.js.Без названия"></script>
+    <script type="text/javascript" src="sntp.diplom/jquery.lightbox-0.5.js.Без названия"></script>
+    <!--<link rel="stylesheet" type="text/css" href="sntp.diplom/jquery.lightbox-0.5.css" media="screen">-->
+    <script type="text/javascript">
+        jQuery(function () {
+            jQuery("#img-gall a").lightBox({
+                txtImage: 'Изображение',
+                txtOf: 'из'
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#slider').bxSlider({
+                displaySlideQty: 6,
+                moveSlideQty: 1
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(".top-nav span b").click(function () {
+
+                //Ширина и высота всего документа
+                var HeightDocument = $(document).height();
+                var WidthDocument = $(document).width();
+                //Ширина и высота окна браузера
+                var HeightScreen = $(window).height();
+
+                //Плавное анимационное наложение на страницу серого фона
+                $(".modal_bg").css({"width": WidthDocument, "height": HeightDocument});
+                $(".modal_bg").fadeTo("slow", 0.8);
+
+                //Расположение модального окна с содержимым по высоте учитывая скроллинг документа
+                var Top_modal_window = $(document).scrollTop() + HeightScreen / 2 - $(".modal_window").height() / 2;
+                $(".modal_window").css({"top": Top_modal_window + "px", "display": "block"});
+
+            });
+
+            //При клике на кнопке "Close Window", модальное окно и фон скрываются
+            $(".modal_window .close").click(function () {
+                $(".modal_bg, .modal_window").hide();
+                $("body").css({"overflow": "auto"});
+            });
+
+            //При клике вне области модального окна, фон и модальное окно скрываются
+            $(".modal_bg").click(function () {
+                $(".modal_bg, .modal_window").hide();
+                $("body").css({"overflow": "auto"});
+            });
+        });
+    </script>
+
+    <!--<script>
+    (function($) {
+    $(function() {
+      $('ul.tabs').delegate('li:not(.current)', 'click', function() {
+        $(this).addClass('current').siblings().removeClass('current')
+          .parents('.section').find('div.box').hide().eq($(this).index()).fadeIn(150);
+      })
+    })
+    })
+    </script>-->
+    <script>
+        $(document).ready(function () {
+
+            //Когда страница загрузилась
+            $(".tab_content").hide(); //Скрыть весь контент
+            $("ul.tabs li:first").addClass("active").show(); //Открыть первую вкладку
+            $(".tab_content:first").show(); //Показать содержание первой вкладке
+
+            //Когда кликаем по вкладке...
+            $("ul.tabs li").click(function () {
+                $("ul.tabs li").removeClass("active"); //Убираем все активные вкладки
+                $(this).addClass("active"); //Добавляем класс активной вкладки
+                $(".tab_content").hide(); //Прячем весь контент
+                var activeTab = $(this).find("a").attr("href"); //Определяем какую вкладку нужно открыть
+                $(activeTab).fadeIn(); //Показываем вкладку.
+                return false;
+            });
+
+        });
+    </script>
+    <script src="playerjs.js" type="text/javascript"></script>
+    <!--<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">-->
+    <!--<script src="http://vjs.zencdn.net/4.12/video.js" type="javascript"></script>-->
+</head>
+
+<body>
+
+<div class="modal_bg"></div>
+<div class="modal_window">
+    <span class="close"></span>
+    <div class="tab-box">
+        <ul class="tabs">
+            <li class="active"><a href="https://sntp.ru/#tab1">10 лет Октября, 180 Б</a></li>
+            <li><a href="https://sntp.ru/#tab2">Иртышская набережная, 11 к.1</a></li>
+        </ul>
+        <div class="tab_container">
+            <div id="tab1" class="tab_content" style="display: block;">
+
+                <iframe width="400" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        src="sntp.diplom/maps.html"></iframe>
+                <br>
+                <small><a
+                        href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=ru&amp;geocode=&amp;q=%D0%9E%D0%BC%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+%D0%9E%D0%BC%D1%81%D0%BA,++%D1%83%D0%BB%D0%B8%D1%86%D0%B0+10+%D0%BB%D0%B5%D1%82+%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8F,+180%D0%B1&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=58.206849,114.169922&amp;ie=UTF8&amp;hq=&amp;hnear=%D1%83%D0%BB.+10+%D0%BB%D0%B5%D1%82+%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8F,+180%D0%91,+%D0%9E%D0%BC%D1%81%D0%BA,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+644009&amp;t=m&amp;ll=54.994161,73.436909&amp;spn=0.019695,0.034246&amp;z=14&amp;iwloc=A"
+                        style="color:#0000FF;text-align:left">Просмотреть увеличенную карту</a></small>
+
+            </div>
+            <div id="tab2" class="tab_content" style="display: none;">
+
+                <iframe width="400" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        src="sntp.diplom/maps(1).html"></iframe>
+                <br>
+                <small><a
+                        href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=ru&amp;geocode=&amp;q=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+%D0%9E%D0%BC%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+%D0%9E%D0%BC%D1%81%D0%BA,++%D0%98%D1%80%D1%82%D1%8B%D1%88%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F,+11%D0%BA1&amp;aq=&amp;sll=54.983333,73.366667&amp;sspn=0.669025,1.783905&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%98%D1%80%D1%82%D1%8B%D1%88%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B0%D0%B1.,+11+%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81+1,+%D0%9E%D0%BC%D1%81%D0%BA,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F&amp;t=m&amp;ll=54.976333,73.366785&amp;spn=0.019704,0.034246&amp;z=14&amp;iwloc=A"
+                        style="color:#0000FF;text-align:left">Просмотреть увеличенную карту</a></small>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="conteiner">
+    <div class="head-box">
+        <div class="header">
+            <ul class="top-nav">
+                <li class="map"><span><b>карта проезда</b></span></li>
+                <li class="back"><b><a href="https://sntp.ru/feedback/">обратная связь</a></b></li>
+                <li class="mail"><b><a href="https://sntp.ru/roundcubemail">корпоративная почта</a></b></li>
+            </ul>
+
+            <h2><a href="https://sntp.ru/">СИБНЕФТЕТРАНСПРОЕКТ проектно-изыскательный институт</a></h2>
+
+            <div class="menu">
+
+                <b>Для сотрудников</b>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="content">
+
+
+        <div>
+            <h1>Скринкасты 1</h1>
+            <div id="player1"></div>
+            <script type="text/javascript">
+                let player1 = new Playerjs({
+                    id: "player1",
+                    file: [
+                        {"title": "Название", "file": "sntp.diplom/flowplayer/file/video.mp4"},
+                        {
+                            "title": "Название",
+                            "file": "sntp.diplom/flowplayer/file/Drift%20Racing%20Online%202021-08-25%2023-58-31.mp4"
+                        }
+                    ]
+                });
+            </script>
+
+            <h1>Тест 1</h1>
+            <form action="#" name="id1">
+                <div>
+                    <h3>Текст вопроса 1</h3>
+                    <div>
+                        <label for="ans111">Ответ 1</label>
+                        <input id="ans111" type="radio" name="que1" value="1">
+                    </div>
+                    <div>
+                        <label for="ans112">Ответ 2</label>
+                        <input id="ans112" type="radio" name="que1" value="2">
+                    </div>
+                    <div>
+                        <label for="ans113">Ответ 3</label>
+                        <input id="ans113" type="radio" name="que1" value="3">
+                    </div>
+                </div>
+                <div>
+                    <h3>Текст вопроса 2</h3>
+                    <div>
+                        <label for="ans121">Ответ 1</label>
+                        <input id="ans121" type="radio" name="que2" value="1">
+                    </div>
+                    <div>
+                        <label for="ans122">Ответ 2</label>
+                        <input id="ans122" type="radio" name="que2" value="2">
+                    </div>
+                    <div>
+                        <label for="ans123">Ответ 3</label>
+                        <input id="ans123" type="radio" name="que2" value="3">
+                    </div>
+                </div>
+                <div>
+                    <h3>Текст вопроса 3</h3>
+                    <div>
+                        <label for="ans131">Ответ 1</label>
+                        <input id="ans131" type="radio" name="que3" value="1">
+                    </div>
+                    <div>
+                        <label for="ans132">Ответ 2</label>
+                        <input id="ans132" type="radio" name="que3" value="2">
+                    </div>
+                    <div>
+                        <label for="ans133">Ответ 3</label>
+                        <input id="ans133" type="radio" name="que3" value="3">
+                    </div>
+                </div>
+                <button id="test1-btn" onclick="check_test1()" type="button">Проверить</button>
+            </form>
+        </div>
+
+
+
+        <div>
+            <h1>Скринкасты 2</h1>
+            <div id="player2"></div>
+            <script type="text/javascript">
+                let player2 = new Playerjs({
+                    id: "player2",
+                    file: [
+                        {"title": "Название", "file": "sntp.diplom/flowplayer/file/video1.mp4"},
+                    ]
+                });
+
+            </script>
+
+            <h1>Тест 2</h1>
+            <form action="#" name="id2">
+                <div>
+                    <h3>Текст вопроса 1</h3>
+                    <div>
+                        <label for="ans211">Ответ 1</label>
+                        <input id="ans211" type="radio" name="que1" value="1">
+                    </div>
+                    <div>
+                        <label for="ans212">Ответ 2</label>
+                        <input id="ans212" type="radio" name="que1" value="2">
+                    </div>
+                    <div>
+                        <label for="ans213">Ответ 3</label>
+                        <input id="ans213" type="radio" name="que1" value="3">
+                    </div>
+                </div>
+                <div>
+                    <h3>Текст вопроса 2</h3>
+                    <div>
+                        <label for="ans221">Ответ 1</label>
+                        <input id="ans221" type="radio" name="que2" value="1">
+                    </div>
+                    <div>
+                        <label for="ans222">Ответ 2</label>
+                        <input id="ans222" type="radio" name="que2" value="2">
+                    </div>
+                    <div>
+                        <label for="ans223">Ответ 3</label>
+                        <input id="ans223" type="radio" name="que2" value="3">
+                    </div>
+                </div>
+                <div>
+                    <h3>Текст вопроса 3</h3>
+                    <div>
+                        <label for="ans231">Ответ 1</label>
+                        <input id="ans231" type="radio" name="que3" value="1">
+                    </div>
+                    <div>
+                        <label for="ans232">Ответ 2</label>
+                        <input id="ans232" type="radio" name="que3" value="2">
+                    </div>
+                    <div>
+                        <label for="ans233">Ответ 3</label>
+                        <input id="ans233" type="radio" name="que3" value="3">
+                    </div>
+                </div>
+                <button id="test2-btn" onclick="check_test2()" type="button">Проверить</button>
+            </form>
+        </div>
+
+
+
+        <div>
+            <h1>Скринкасты 3</h1>
+            <div id="player3"></div>
+            <script type="text/javascript">
+                let player3 = new Playerjs({
+                    id: "player3",
+                    file: [
+                        {"title": "Название", "file": "sntp.diplom/flowplayer/file/video1.mp4"},
+                    ]
+                });
+
+            </script>
+
+            <h1>Тест 3</h1>
+            <form action="#" name="id3">
+                <div>
+                    <h3>Текст вопроса 1</h3>
+                    <div>
+                        <label for="ans311">Ответ 1</label>
+                        <input id="ans311" type="radio" name="que1" value="1">
+                    </div>
+                    <div>
+                        <label for="ans312">Ответ 2</label>
+                        <input id="ans312" type="radio" name="que1" value="2">
+                    </div>
+                    <div>
+                        <label for="ans313">Ответ 3</label>
+                        <input id="ans313" type="radio" name="que1" value="3">
+                    </div>
+                </div>
+                <div>
+                    <h3>Текст вопроса 2</h3>
+                    <div>
+                        <label for="ans321">Ответ 1</label>
+                        <input id="ans321" type="radio" name="que2" value="1">
+                    </div>
+                    <div>
+                        <label for="ans322">Ответ 2</label>
+                        <input id="ans322" type="radio" name="que2" value="2">
+                    </div>
+                    <div>
+                        <label for="ans323">Ответ 3</label>
+                        <input id="ans323" type="radio" name="que2" value="3">
+                    </div>
+                </div>
+                <div>
+                    <h3>Текст вопроса 3</h3>
+                    <div>
+                        <label for="ans331">Ответ 1</label>
+                        <input id="ans331" type="radio" name="que3" value="1">
+                    </div>
+                    <div>
+                        <label for="ans332">Ответ 2</label>
+                        <input id="ans332" type="radio" name="que3" value="2">
+                    </div>
+                    <div>
+                        <label for="ans333">Ответ 3</label>
+                        <input id="ans333" type="radio" name="que3" value="3">
+                    </div>
+                </div>
+                <button id="test3-btn" onclick="check_test3()" type="button">Проверить</button>
+            </form>
+        </div>
+
+
+
+        <div>
+            <h1>Скринкасты 4</h1>
+            <div id="player4"></div>
+            <script type="text/javascript">
+                let player4 = new Playerjs({
+                    id: "player4",
+                    file: [
+                        {"title": "Название", "file": "sntp.diplom/flowplayer/file/video1.mp4"},
+                    ]
+                });
+
+            </script>
+
+            <h1>Тест 4</h1>
+            <form action="#" name="id4">
+                <div>
+                    <h3>Текст вопроса 1</h3>
+                    <div>
+                        <label for="ans411">Ответ 1</label>
+                        <input id="ans411" type="radio" name="que1" value="1">
+                    </div>
+                    <div>
+                        <label for="ans412">Ответ 2</label>
+                        <input id="ans412" type="radio" name="que1" value="2">
+                    </div>
+                    <div>
+                        <label for="ans413">Ответ 3</label>
+                        <input id="ans413" type="radio" name="que1" value="3">
+                    </div>
+                </div>
+                <div>
+                    <h3>Текст вопроса 2</h3>
+                    <div>
+                        <label for="ans421">Ответ 1</label>
+                        <input id="ans421" type="radio" name="que2" value="1">
+                    </div>
+                    <div>
+                        <label for="ans422">Ответ 2</label>
+                        <input id="ans422" type="radio" name="que2" value="2">
+                    </div>
+                    <div>
+                        <label for="ans423">Ответ 3</label>
+                        <input id="ans423" type="radio" name="que2" value="3">
+                    </div>
+                </div>
+                <div>
+                    <h3>Текст вопроса 3</h3>
+                    <div>
+                        <label for="ans431">Ответ 1</label>
+                        <input id="ans431" type="radio" name="que3" value="1">
+                    </div>
+                    <div>
+                        <label for="ans432">Ответ 2</label>
+                        <input id="ans432" type="radio" name="que3" value="2">
+                    </div>
+                    <div>
+                        <label for="ans433">Ответ 3</label>
+                        <input id="ans433" type="radio" name="que3" value="3">
+                    </div>
+                </div>
+                <button id="test4-btn" onclick="check_test4()" type="button">Проверить</button>
+            </form>
+        </div>
+
+
+
+        <div>
+            <h1>Скринкасты 5</h1>
+            <div id="player5"></div>
+            <script type="text/javascript">
+                let player5 = new Playerjs({
+                    id: "player5",
+                    file: [
+                        {"title": "Название", "file": "sntp.diplom/flowplayer/file/video1.mp4"},
+                    ]
+                });
+
+            </script>
+
+            <h1>Тест 5</h1>
+            <form action="#" name="id5">
+                <div>
+                    <h3>Текст вопроса 1</h3>
+                    <div>
+                        <label for="ans511">Ответ 1</label>
+                        <input id="ans511" type="radio" name="que1" value="1">
+                    </div>
+                    <div>
+                        <label for="ans512">Ответ 2</label>
+                        <input id="ans512" type="radio" name="que1" value="2">
+                    </div>
+                    <div>
+                        <label for="ans513">Ответ 3</label>
+                        <input id="ans513" type="radio" name="que1" value="3">
+                    </div>
+                </div>
+                <div>
+                    <h3>Текст вопроса 2</h3>
+                    <div>
+                        <label for="ans521">Ответ 1</label>
+                        <input id="ans521" type="radio" name="que2" value="1">
+                    </div>
+                    <div>
+                        <label for="ans522">Ответ 2</label>
+                        <input id="ans522" type="radio" name="que2" value="2">
+                    </div>
+                    <div>
+                        <label for="ans523">Ответ 3</label>
+                        <input id="ans523" type="radio" name="que2" value="3">
+                    </div>
+                </div>
+                <div>
+                    <h3>Текст вопроса 3</h3>
+                    <div>
+                        <label for="ans531">Ответ 1</label>
+                        <input id="ans531" type="radio" name="que3" value="1">
+                    </div>
+                    <div>
+                        <label for="ans532">Ответ 2</label>
+                        <input id="ans532" type="radio" name="que3" value="2">
+                    </div>
+                    <div>
+                        <label for="ans533">Ответ 3</label>
+                        <input id="ans533" type="radio" name="que3" value="3">
+                    </div>
+                </div>
+                <button id="test5-btn" onclick="check_test5()" type="button">Проверить</button>
+            </form>
+        </div>
+
+
+
+        <div>
+            <h1>Скринкасты 6</h1>
+            <div id="player6"></div>
+            <script type="text/javascript">
+                let player6 = new Playerjs({
+                    id: "player6",
+                    file: [
+                        {"title": "Название", "file": "sntp.diplom/flowplayer/file/video1.mp4"},
+                    ]
+                });
+
+            </script>
+
+            <h1>Тест 6</h1>
+            <form action="#" name="id6">
+                <div>
+                    <h3>Текст вопроса 1</h3>
+                    <div>
+                        <label for="ans611">Ответ 1</label>
+                        <input id="ans611" type="radio" name="que1" value="1">
+                    </div>
+                    <div>
+                        <label for="ans612">Ответ 2</label>
+                        <input id="ans612" type="radio" name="que1" value="2">
+                    </div>
+                    <div>
+                        <label for="ans613">Ответ 3</label>
+                        <input id="ans613" type="radio" name="que1" value="3">
+                    </div>
+                </div>
+                <div>
+                    <h3>Текст вопроса 2</h3>
+                    <div>
+                        <label for="ans621">Ответ 1</label>
+                        <input id="ans621" type="radio" name="que2" value="1">
+                    </div>
+                    <div>
+                        <label for="ans622">Ответ 2</label>
+                        <input id="ans622" type="radio" name="que2" value="2">
+                    </div>
+                    <div>
+                        <label for="ans623">Ответ 3</label>
+                        <input id="ans623" type="radio" name="que2" value="3">
+                    </div>
+                </div>
+                <div>
+                    <h3>Текст вопроса 3</h3>
+                    <div>
+                        <label for="ans631">Ответ 1</label>
+                        <input id="ans631" type="radio" name="que3" value="1">
+                    </div>
+                    <div>
+                        <label for="ans632">Ответ 2</label>
+                        <input id="ans632" type="radio" name="que3" value="2">
+                    </div>
+                    <div>
+                        <label for="ans633">Ответ 3</label>
+                        <input id="ans633" type="radio" name="que3" value="3">
+                    </div>
+                </div>
+                <button id="test6-btn" onclick="check_test6()" type="button">Проверить</button>
+            </form>
+        </div>
+
+
+        <script type="text/javascript">
+
+            function check_test1() {
+                // получаем форму
+                let form = document.forms.id1;
+                // получаем элемент
+                let ans1 = form.elements.que1;
+                let ans2 = form.elements.que2;
+                let ans3 = form.elements.que3;
+
+                let trueAnsCount = 0;
+
+                //Номер правильных ответов
+                let trueAnsQue1 = 1;
+                let trueAnsQue2 = 1;
+                let trueAnsQue3 = 1;
+
+                if (trueAnsQue1 == ans1.value) {
+                    trueAnsCount += 1;
+                }
+                if (trueAnsQue2 == ans2.value) {
+                    trueAnsCount += 1;
+                }
+                if (trueAnsQue3 == ans3.value) {
+                    trueAnsCount += 1;
+                }
+                alert('Количетсво правильных ответов в тесте №1: ' + trueAnsCount);
+
+
+            }
+
+            function check_test2() {
+                // получаем форму
+                let form = document.forms.id2;
+                // получаем элемент
+                let ans1 = form.elements.que1;
+                let ans2 = form.elements.que2;
+                let ans3 = form.elements.que3;
+
+                let trueAnsCount = 0;
+
+                //Номер правильных ответов
+                let trueAnsQue1 = 1;
+                let trueAnsQue2 = 1;
+                let trueAnsQue3 = 1;
+
+                if (trueAnsQue1 == ans1.value) {
+                    trueAnsCount += 1;
+                }
+                if (trueAnsQue2 == ans2.value) {
+                    trueAnsCount += 1;
+                }
+                if (trueAnsQue3 == ans3.value) {
+                    trueAnsCount += 1;
+                }
+                alert('Количетсво правильных ответов в тесте №2: ' + trueAnsCount);
+
+
+            }
+
+            function check_test3() {
+                // получаем форму
+                let form = document.forms.id3;
+                // получаем элемент
+                let ans1 = form.elements.que1;
+                let ans2 = form.elements.que2;
+                let ans3 = form.elements.que3;
+
+                let trueAnsCount = 0;
+
+                //Номер правильных ответов
+                let trueAnsQue1 = 1;
+                let trueAnsQue2 = 1;
+                let trueAnsQue3 = 1;
+
+                if (trueAnsQue1 == ans1.value) {
+                    trueAnsCount += 1;
+                }
+                if (trueAnsQue2 == ans2.value) {
+                    trueAnsCount += 1;
+                }
+                if (trueAnsQue3 == ans3.value) {
+                    trueAnsCount += 1;
+                }
+                alert('Количетсво правильных ответов в тесте №3: ' + trueAnsCount);
+
+
+            }
+
+            function check_test4() {
+                // получаем форму
+                let form = document.forms.id4;
+                // получаем элемент
+                let ans1 = form.elements.que1;
+                let ans2 = form.elements.que2;
+                let ans3 = form.elements.que3;
+
+                let trueAnsCount = 0;
+
+                //Номер правильных ответов
+                let trueAnsQue1 = 1;
+                let trueAnsQue2 = 1;
+                let trueAnsQue3 = 1;
+
+                if (trueAnsQue1 == ans1.value) {
+                    trueAnsCount += 1;
+                }
+                if (trueAnsQue2 == ans2.value) {
+                    trueAnsCount += 1;
+                }
+                if (trueAnsQue3 == ans3.value) {
+                    trueAnsCount += 1;
+                }
+                alert('Количетсво правильных ответов в тесте №4: ' + trueAnsCount);
+
+
+            }
+
+            function check_test5() {
+                // получаем форму
+                let form = document.forms.id5;
+                // получаем элемент
+                let ans1 = form.elements.que1;
+                let ans2 = form.elements.que2;
+                let ans3 = form.elements.que3;
+
+                let trueAnsCount = 0;
+
+                //Номер правильных ответов
+                let trueAnsQue1 = 1;
+                let trueAnsQue2 = 1;
+                let trueAnsQue3 = 1;
+
+                if (trueAnsQue1 == ans1.value) {
+                    trueAnsCount += 1;
+                }
+                if (trueAnsQue2 == ans2.value) {
+                    trueAnsCount += 1;
+                }
+                if (trueAnsQue3 == ans3.value) {
+                    trueAnsCount += 1;
+                }
+                alert('Количетсво правильных ответов в тесте №5: ' + trueAnsCount);
+
+
+            }
+
+            function check_test6() {
+                // получаем форму
+                let form = document.forms.id6;
+                // получаем элемент
+                let ans1 = form.elements.que1;
+                let ans2 = form.elements.que2;
+                let ans3 = form.elements.que3;
+
+                let trueAnsCount = 0;
+
+                //Номер правильных ответов
+                let trueAnsQue1 = 1;
+                let trueAnsQue2 = 1;
+                let trueAnsQue3 = 1;
+
+                if (trueAnsQue1 == ans1.value) {
+                    trueAnsCount += 1;
+                }
+                if (trueAnsQue2 == ans2.value) {
+                    trueAnsCount += 1;
+                }
+                if (trueAnsQue3 == ans3.value) {
+                    trueAnsCount += 1;
+                }
+                alert('Количетсво правильных ответов в тесте №6: ' + trueAnsCount);
+
+
+            }
+
+
+        </script>
+
+    </div>
+</div>
+
+<div class="foot-box">
+    <div class="bt">
+        <div class="footer">
+            <div class="arr"></div>
+            <div class="link">
+    <span><a href="https://sntp.ru/files/presentation_sntp.pdf">Презентация компании в формате PDF (36.8Mb)
+</a></span>
+                <span><a href="https://sntp.ru/"></a></span>
+                <span><a href="https://sntp.ru/"></a></span>
+            </div>
+            <div class="sert-info">Система менеджмента качества<br>сертифицирована в соответствии<br>со стандартом ISO
+                9001:2008
+            </div>
+            <p>© ОАО «Сибнефтетранспроект» 2012 | Адрес: 644009, г.Омск, ул. 10 лет Октября, д.180б | E-mail: <a
+                    href="mailto:sntp@sntp.ru">sntp@sntp.ru</a></p>
+        </div>
+    </div>
+</div>
+
+
+<!-- This page generated in 0.049766 secs by TPL, SITE MODE -->
+</body>
+
+</html>
