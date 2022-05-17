@@ -82,7 +82,40 @@ html[xmlns] .cf {
 .slider-box .bx-prev:hover { background-position: 0 -41px }
 .slider-box .bx-next:hover { background-position: 100% -41px }
 
-.content { width: 750px; margin: 0 auto; padding: 0 0 205px; }
+
+.content form{width: 750px; margin: 15px; padding: 5px; text-align: center }
+.content h3{font-size: 25px; color: #0068a4; }
+.content label { font-size: 25px; color: #0068a4; }
+.content div.answer{ display: inline-block}
+.content div{margin: 5px; padding: 5px; }
+.content button.button{font-size: 25px; margin: 5px; padding: 5px; }
+.content{display: flex; width: 100%; flex-wrap: wrap; justify-content: center  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1 { font: normal 24px/55px Trebuchet MS, Helvetica, sans-serif; text-align: center; padding: 0 0 16px; margin: 0 0 20px; background: url(https://sntp.ru/images/sntp/bg_title.png) center 100% no-repeat }
 p { padding: 0 37px 15px }
@@ -154,6 +187,3 @@ form img { display: block; margin: 5px 0 0 }
 .modal_window .close { position:absolute; top: 13px; right: 12px; width: 10px; height: 10px; background: url(https://sntp.ru/images/sntp/bg_close.png); cursor: pointer }
 .modal_window .close:hover { background-position: 0 -10px; }
 
-.content form{
-	background-color: antiquewhite;
-}
